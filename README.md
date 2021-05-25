@@ -23,4 +23,4 @@ Color detection is mostly in demand in computer vision. A color detection algori
 <b>Step 2: Run it in any python compiler and it will open camera ,place any object in front of camera of which you want to detect color.</b>
 
 ## Output
-![](output/output.png)
+![](output/output.PNG)
