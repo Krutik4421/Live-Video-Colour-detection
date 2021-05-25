@@ -242,12 +242,10 @@ while True:
                     cy = int(centroid["m01"]/ centroid["m00"])
                     cv2.circle(frame,(cx,cy),1,(0,0,0),0)
                     cv2.putText(frame, "Gray", (cx-10, cy-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255,255,255))
-
-        cv2.imshow("result",frame)
-
-        k = cv2.waitKey(5)
-        if k == 'q':
+                        
+        if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
+        cv2.imshow("result",frame)
 
 cap.release()
 cv2.destroyAllWindows()
