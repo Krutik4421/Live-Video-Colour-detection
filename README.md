@@ -18,7 +18,7 @@ Color detection is mostly in demand in computer vision. A color detection algori
 </details>
 
 ## How to Run Program
-<b>Step 1: Open py file [here](https://github.com/Krutik4421/Live-Video-Colour-detection/blob/main/live-video-colour-detection.py)</b>
+<b>Step 1: Open py file from [here](https://github.com/Krutik4421/Live-Video-Colour-detection/blob/main/live-video-colour-detection.py)</b>
 
 <b>Step 2: Run it in any python compiler and it will open camera ,place any object in front of camera of which you want to detect color.</b>
 
